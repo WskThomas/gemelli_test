@@ -26,7 +26,7 @@ J'ai également implémenté une MCTS simple qui n'utilise aucun réseau de neur
 
 ## train.py
 Script d'entraînement d'AlphaZero. Tous les paramètres d'entraînement sont présent dans ce script.
-Ce script contient toute la pipeline d'entrainement d'AlphaZero et j'ai essayé de le rendre le plus clair possible.
+Ce script contient toute la pipeline d'entrainement d'AlphaZero, les commentaires détailles les différentes étapes d'entrainement.
 
 ## test_model.py
 Script permettant de tester l'entraînement d'AlphaZero contre d'autres strategies (par exemple random)
