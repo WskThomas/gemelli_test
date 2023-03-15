@@ -38,7 +38,7 @@ class Coach():
         self.tempThreshold = 15 # Nombre d'itération après laquelle la recherche par MCTS n'est plus focalisé sur l'exloration
 
         self.maxlenOfQueue = 10000 # Nombre d'exemple que l'on veut garder lors de l'entraînement du réseau
-        self.win_threshold = 0.55 # Proportion de victoire que
+        self.win_threshold = 0.55 # Proportion de victoire que l'on doit obtenir pour valider le réseau
         self.numEps = 100 # nombre de de jeu contre soit même effectué (phase 1)
         self.numIters = 1000 # Nombre d'iteration d'entrainement
         self.n_self_game = 40 # Nombre de jeu contre l'ancienne version de lui-même (phase 3)
