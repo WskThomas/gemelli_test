@@ -14,7 +14,7 @@ For reference about 3000 games per second can be completed with PlayerRandom and
 
 J'ai utilisé une implémentation d'AlphaZero basé sur une implémentation déjà existante ici: https://github.com/suragnair/alpha-zero-general
 Afin de faire fonctionner le code, il est necessaire d'utiliser Pytorch
-Par manque de temps je n'ai pas optimiser le temps d'entrainement (utilisation des GPU par exemple)
+Par manque de temps je n'ai pas optimisé le temps d'entrainement (utilisation des GPU par exemple)
 
 ## main.py
 J'ai modifié le dossier main.py. On fait jouer ici ici un joueur random vs l'agent obtenu après entrainement d'AlphaZero.
@@ -26,7 +26,7 @@ J'ai également implémenté une MCTS simple qui n'utilise aucun réseau de neur
 
 ## train.py
 Script d'entraînement d'AlphaZero. Tous les paramètres d'entraînement sont présent dans ce script.
-Ce script contient toute la pipeline d'entrainement d'AlphaZero, les commentaires détailles les différentes étapes d'entrainement.
+Ce script contient toute la pipeline d'entrainement d'AlphaZero, les commentaires détaillent les différentes étapes d'entrainement.
 
 ## test_model.py
 Script permettant de tester l'entraînement d'AlphaZero contre d'autres strategies (par exemple random)
